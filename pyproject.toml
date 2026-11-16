@@ -1,0 +1,10 @@
+[project]
+name = "triage"
+version = "1.0.0"
+description = "AI-assisted security alert triage with guardrails"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
